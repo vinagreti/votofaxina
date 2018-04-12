@@ -122,12 +122,14 @@
       true,
       "attribute",
       "app",
+      "vtf",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
       "app",
+      "vtf",
       "kebab-case"
     ],
     "no-output-on-prefix": true,
