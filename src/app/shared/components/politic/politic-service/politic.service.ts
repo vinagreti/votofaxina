@@ -11,7 +11,7 @@ export class PoliticService {
 
   get() {
 
-    return this.http.get(`http://cors-proxy.htmldriven.com/?url=${VIGIE_AQUI_ENDPOINT}`).map((res: any) => JSON.parse(res.body));
+    return this.http.get(`https://cors-proxy.htmldriven.com/?url=${VIGIE_AQUI_ENDPOINT}`).map((res: any) => JSON.parse(res.body));
 
   }
 
