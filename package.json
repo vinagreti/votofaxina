@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build-ghpage": "ng build --prod --base-href=http://votofaxina.com/ && npm run create-404",
+    "build-ghpage": "ng build --prod --base-href=http://votofaxina.com/ --output-path=docs && npm run create-404",
     "create-404": "cp docs/index.html docs/404.html"
   },
   "private": true,
